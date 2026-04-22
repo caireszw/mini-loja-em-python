@@ -38,7 +38,7 @@ while True:
          valortotal = 0
          for p in estoque:
            valortotal += p['Estoque'] * p['Preço'] 
-         print(f'O valor total do estoque é {valortotal:.2f}')
+         print(f'O valor total do estoque é R${valortotal:.2f}')
     elif resp == 5:
         print('FIM DO PROGRAMA OBRIGADO!')
         break
